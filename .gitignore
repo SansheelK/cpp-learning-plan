@@ -1,3 +1,37 @@
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+CMakeScripts/
+Makefile
+cmake_install.cmake
+install_manifest.txt
+
+# Ignore editor and IDE files
+*.swp
+*.swo
+*.bak
+*.tmp
+*.log
+.vscode/
+.idea/
+
+# Ignore compiled libraries
+*.a
+*.so
+*.dll
+*.dylib
+
+# Ignore debug and profiling files
+*.gcda
+*.gcno
+*.gch
+*.prof
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
 *.o
 *.exe
 *.out
